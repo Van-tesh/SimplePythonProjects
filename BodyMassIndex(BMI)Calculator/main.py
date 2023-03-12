@@ -1,0 +1,8 @@
+Weight=input("Enter Your weight in kilogram(kg): ")
+height=input("Enter Your height in metres(m): ")
+height_Float= float(height)
+Weight_int= int(Weight)
+Bmi= Weight_int / (height_Float *height_Float)
+Bmi_int=int(Bmi)
+Bmi_str= str(Bmi_int)
+print(f"Hello You have a BMI of {Bmi_int},Have a nice day!" )
