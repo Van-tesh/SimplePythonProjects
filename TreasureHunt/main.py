@@ -24,7 +24,7 @@ print(r'''
 
 
 
-print("\n        Welcome to treasure hunt!\n        Your Mission is to find the Hidden treasure!\n\n")
+print("\n        Welcome to treasure hunt!\n     Your Mission is to find the Hidden treasure!\n\n")
 crossroad= input("\n You are at a crossroad,which way will you take? left or right:  ").lower()
 if crossroad == "right":
   print("\n Oops! That Road contained wildebeast and you were stumbled to death,Game over!")
