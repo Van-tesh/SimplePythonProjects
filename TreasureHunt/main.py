@@ -27,7 +27,7 @@ print(r'''
 print("\n        Welcome to treasure hunt!\n     Your Mission is to find the Hidden treasure!\n\n")
 crossroad= input("\n You are at a crossroad,which way will you take? left or right:  ").lower()
 if crossroad == "right":
-  print("\n Oops! That Road contained wildebeast and you were stumbled to death,Game over!")
+  print("\n Oops! That Road contained wild beast and you were stumbled to death,Game over!")
   
 elif crossroad=="left":
   
@@ -37,7 +37,7 @@ elif crossroad=="left":
     print("\n Oops! You were grabbed by an alligator, Game Over!")
     
   elif lake_Option=="wait":
-    door_option=input("\n You arrive atthe island safely. There is a mansion with three colored doors. One red, yellow and blue. Which color are you picking? ").lower()
+    door_option=input("\n You arrive at the island safely. There is a mansion with three colored doors. One red, yellow and blue. Which color are you picking? ").lower()
     
     if door_option== "yellow":
       print("\n Congratulations You found the treasure! You are now Rich")
