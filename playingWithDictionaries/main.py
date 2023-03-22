@@ -39,7 +39,7 @@ travel_log = [
 ]
 
 
-def add_new_country(        country, visits, cities):
+def add_new_country( country, visits, cities):
     new_country={}
     new_country["country"]= country
     new_country["visits"]=visits
